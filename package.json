@@ -2,22 +2,34 @@
   "name": "vuex-state-sample",
   "version": "1.0.0",
   "description": "State Example | Vuex",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yveyeh/vuex-state-sample"
-  },
-  "main": "./dist/index.pack.js",
-  "scripts": {
-    "build": "webpack",
-    "test": "test"
-  },
   "keywords": [
     "vue",
     "vuex",
     "state",
     "store"
   ],
-  "author": "Didi",
+  "main": "./dist/index.pack.js",
+  "homepage": "https://github.com/yveyeh/vuex-state-sample#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yveyeh/vuex-state-sample"
+  },
+  "publishConfig": { 
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "test"
+  },
+  "bugs": { 
+    "url" : "https://github.com/yveyeh/vuex-state-sample/issues",
+    "email" : "yveyeh@gmail.com"
+  },
+  "author": { 
+    "name" : "Yufenyuy Veyeh Didier",
+    "email" : "yveyeh@gmail.com",
+    "url" : "https://github.com/yveyeh"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/vue": "^2.0.0",
