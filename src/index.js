@@ -21,15 +21,15 @@ new Vue({
         }
     },
     store: store, // inject store from the root component.
-    // computed: mapState({
-    //     count: state => state.count,
-    //     countAlias: 'count',
-    //     countPlusLocalState(state) { 
-    //         // this shows us that not all of our state has to be held within our store.
-    //         // it's ok to have some data within our component if it will only be used in that component.
-    //         return state.count + this.localCount
-    //     }
-    // })
-    computed: mapState(['count'])
+    computed: mapState({
+        count: state => state.count,
+        countAlias: 'count',
+        countPlusLocalState(state) { 
+            // this shows us that not all of our state has to be held within our store.
+            // it's ok to have some data within our component if it will only be used in that component.
+            return state.count + this.localCount
+        }
+    })
+    // computed: mapState(['count'])
     // render: h => h(App)
 }).$mount('#app');
