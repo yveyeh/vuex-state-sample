@@ -1,0 +1,29 @@
+{
+  "name": "vuex-state-sample",
+  "version": "1.0.0",
+  "description": "State Example | Vuex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yveyeh/vuex-state-sample"
+  },
+  "main": "./dist/index.pack.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "test"
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "state",
+    "store"
+  ],
+  "author": "Didi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "vue": "^2.4.4",
+    "vuex": "^3.0.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
