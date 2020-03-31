@@ -2,7 +2,7 @@
 
 A project to demonstrate the use of Store or state in VueJS with Vuex.
 
-## Usage
+## Installation and Usage
 
 ... a more detailed documentation is in the pipeline.
 
@@ -16,4 +16,4 @@ A project to demonstrate the use of Store or state in VueJS with Vuex.
 
 ## LICENSE
 
-See the license for this software [here]()
+The MIT License. See the license for this software [here](https://github.com/yveyeh/vuex-state-sample/blob/master/LICENSE)
