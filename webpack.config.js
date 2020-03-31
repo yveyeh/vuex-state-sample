@@ -2,9 +2,31 @@ const path = require('path');
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: {
+        count: './src/controllers/count.js',
+        todos: './src/controllers/todos.js'
+    },
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'index.pack.js'
+        path: path.resolve(__dirname, './dist'),
+        filename: '[name].pack.js'
+    },
+    module: {
+        rules: [
+            { 
+                test: /\.css$/, 
+                use: [
+                    {
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader', 
+                        options: { 
+                            url: true 
+                        }
+                    }
+                ],
+                exclude: /node_modules/
+            }
+        ]
     }
 };

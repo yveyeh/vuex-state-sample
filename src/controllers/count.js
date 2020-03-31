@@ -4,6 +4,8 @@ import { mapState } from 'vuex';
 
 Vue.use(Vuex);
 
+require('../styles/count.css');
+
 // This pattern makes the component rely on the global store.
 // When using a modular system, we will have to import the store in every single component that is using it.
 // It will also require marking when testing the component.
@@ -17,7 +19,7 @@ new Vue({
     // 'el': "#app",
     data() {
         return {
-            localCount: 4
+            localCount: 5
         }
     },
     store: store, // inject store from the root component.
@@ -31,5 +33,4 @@ new Vue({
         }
     })
     // computed: mapState(['count'])
-    // render: h => h(App)
-}).$mount('#app');
+}).$mount('#count');
