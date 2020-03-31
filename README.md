@@ -14,6 +14,8 @@ A project to demonstrate the use of Store or state in VueJS with Vuex.
 
 - :headphones: [Yufenyuy Veyeh Didier](https://github.com/yveyeh).
 
+Additional credit goes to [Synepsys](http://synepsys.com) for providing me with the required resources to establish this project.
+
 ## LICENSE :clipboard: :memo:
 
 The MIT License. See the license for this software [here](https://github.com/yveyeh/vuex-state-sample/blob/master/LICENSE)
