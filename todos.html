@@ -6,9 +6,35 @@
         <title>Todos</title>
     </head>
     <body>
-        <div id="todos">
-            
+        <div id="todos" class="container">
+            <div class="">
+                <p class="text-left">
+                    From the 
+                    <span class="text-success"> Data </span> 
+                    Property:
+                </p>
+                <p class="text-primary text-center">
+                    Completed Todos: {{ doneTodosCount }}
+                </p>
+                <p class="text-danger text-center">
+                    Uncompleted Todos: {{ undoneTodosCount }}
+                </p>
+            </div>
+            <div class="">
+                <p class="text-left">
+                    From the 
+                    <span class="text-success"> Computed </span> 
+                    Property:
+                </p>
+                <p class="text-primary text-center">
+                    Completed Todos: {{ todosCount.done }}
+                </p>
+                <p class="text-danger text-center">
+                    Uncompleted Todos: {{ todosCount.undone }}
+                </p>
+            </div>
         </div>
+        
         <script src="./dist/todos.pack.js"></script>
     </body>
 </html>

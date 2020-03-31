@@ -1,0 +1,33 @@
+#todos {
+    margin-top: 250px;
+    font-size: 36px;
+}
+
+#todos p {
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-primary {
+    color: blue;
+}
+
+.text-success {
+    color: green;
+}

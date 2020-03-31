@@ -6,7 +6,7 @@ A project to demonstrate the use of Store or state in VueJS with Vuex.
 
 ... a more detailed documentation is in the pipeline.
 
-## Development
+## Development :code:
 
 ... a more detailed documentation is in the pipeline.
 
