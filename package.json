@@ -1,6 +1,6 @@
 {
   "name": "vuex-state-sample",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "State Example | Vuex",
   "keywords": [
     "vue",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "test": "test"
+    "test": "jest --config ./jest.config.js"
   },
   "bugs": {
     "url": "https://github.com/yveyeh/vuex-state-sample/issues",
