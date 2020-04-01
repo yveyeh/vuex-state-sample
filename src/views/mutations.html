@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mutations</title>
+    </head>
+    <body>
+        <div id="mutations" class="container">
+            <p>
+                <span>
+                    <button @click="decrementBy" class="btn btn-danger" title="Decrement by 5"> - </button>
+                </span>
+                <span>
+                    <button @click="decrement" class="btn btn-danger" title="Decrement"> - </button>
+                </span>
+                <span class="text">
+                    {{ count }}
+                </span>
+                <span>
+                    <button @click="increment" class="btn btn-success" title="Increment"> + </button>
+                </span>
+                <span>
+                    <button @click="incrementBy" class="btn btn-success" title="Increment by 5"> + </button>
+                </span>
+            </p>
+        </div>
+        
+        <script src="../../dist/mutations.pack.js"></script>
+    </body>
+</html>

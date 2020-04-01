@@ -1,11 +1,12 @@
 # Vuex State Sample :gift: :dart:
 
-A project to demonstrate the use of Store and state in VueJS with Vuex.
+A project to demonstrate the use of Store and state, getters, mutations in Vuex and VueJS.
 
 >   - Create Vuex Store and use it to hold state.
 >   - Create computed properties Vuex mapState.
 >   - Retrieve data from Vuex Store with Getters.
 >   - Update state in Vuex Store with Mutations.
+>   - Update state asynchronously with Vuex Actions.
 
 ## Installation and Usage :floppy_disk: :books:
 
