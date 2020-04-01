@@ -1,12 +1,15 @@
 {
   "name": "vuex-state-sample",
-  "version": "2.0.4",
-  "description": "State Example | Vuex",
+  "version": "2.0.6",
+  "description": "State - Store Examples | Vue + Vuex",
   "keywords": [
     "vue",
     "vuex",
     "state",
-    "store"
+    "store",
+    "mapState",
+    "mutations",
+    "mapGetters"
   ],
   "main": "./dist/index.pack.js",
   "homepage": "https://github.com/yveyeh/vuex-state-sample#readme",
