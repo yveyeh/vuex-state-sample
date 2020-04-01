@@ -13,7 +13,6 @@
     "mapGetters",
     "mapMutations"
   ],
-  "main": "./dist/index.pack.js",
   "homepage": "https://github.com/yveyeh/vuex-state-sample#readme",
   "repository": {
     "type": "git",
