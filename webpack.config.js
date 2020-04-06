@@ -5,7 +5,8 @@ module.exports = {
     entry: {
         count: './src/controllers/count.js',
         todos: './src/controllers/todos.js',
-        mutations: './src/controllers/mutations.js'
+        mutations: './src/controllers/mutations.js',
+        actions: './src/controllers/actions.js'
     },
     output: {
         path: path.resolve(__dirname, './dist'),

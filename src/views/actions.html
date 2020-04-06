@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Actions</title>
+    </head>
+    <body>
+        <div id="actions" class="container">
+            <p>
+                <span>
+                    <button @click="decrementBy" class="btn btn-danger" title="Decrement by 3"> - </button>
+                </span>
+                <span>
+                    <button @click="decrement" class="btn btn-danger" title="Decrement"> - </button>
+                </span>
+                <span class="text">
+                    {{ count }}
+                </span>
+                <span>
+                    <button @click="increment" class="btn btn-success" title="Increment"> + </button>
+                </span>
+                <span>
+                    <button @click="incrementBy" class="btn btn-success" title="Increment by 3"> + </button>
+                </span>
+            </p>
+        </div>
+        
+        <script src="../../dist/actions.pack.js"></script>
+    </body>
+</html>

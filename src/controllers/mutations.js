@@ -14,6 +14,7 @@ const store = new Vuex.Store({
 
     // mutations change state and tracks changes along the way.
     // mutations have a type (which is how we commit a mutation) and a handler (which actually changes state).
+    // mutations must be synchronous
     mutations: {
         increment(state) { // the type here is the 'increment'.
             state.count++  // the handler is here.
