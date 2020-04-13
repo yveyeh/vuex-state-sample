@@ -110,14 +110,26 @@ const store = new Vuex.Store({
     }
 })
 
+import { mapState, mapActions } from "vuex";
+
 
 new Vue({ 
     el: '#modules',
     store,
     data: {
     },
-    computed: {
-    }
+    computed: mapState({
+        a: state => state.a.count,
+        b: state => state.b.subModule.count
+    }),
+    methods: mapActions([
+        'some/nested/module/foo', // this['some/nested/module/foo']()     // foo is the action //
+    ])
+    // Another way (which is neat)
+    // methods: mapActions('some/nested/module/foo', [
+    //     'foo' // this.foo()
+    // ])
+
 });
 
 // console.log(store.state.a.count)
