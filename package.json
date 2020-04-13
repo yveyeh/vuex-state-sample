@@ -1,13 +1,15 @@
 {
   "name": "vuex-state-sample",
-  "version": "2.2.1",
-  "description": "State - Store Examples | Vue + Vuex",
+  "version": "2.3.5",
+  "description": "Vue + Vuex Tutorials | See the menu context in the readme file.",
   "keywords": [
     "vue",
     "vuex",
-    "state",
     "store",
+    "state",
+    "getters",
     "actions",
+    "modules",
     "mapState",
     "mutations",
     "mapGetters",

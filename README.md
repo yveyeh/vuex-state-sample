@@ -7,6 +7,7 @@ A project to demonstrate the use of Store and state, getters, mutations in Vuex 
 >   - Retrieve data from Vuex Store with Getters.
 >   - Update state in Vuex Store with Mutations.
 >   - Update state asynchronously with Vuex Actions.
+>   - Structure and manage Vuex store with modules.
 
 ## Installation and Usage :floppy_disk: :books:
 
